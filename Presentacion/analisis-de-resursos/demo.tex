@@ -47,7 +47,7 @@
 \begin{frame}[fragile]
   \frametitle{Introdución}
   
-  El objetivo de este proyecto es analizar los recursos MPI de Biomed. Para ellos se van a analizar los recursos mediante:
+  El objetivo de este proyecto es analizar los recursos MPI de Biomed. Para ello se van a analizar los recursos mediante:
   
 \begin{itemize}
 \item El análisis del retardo que existe a la hora de enviar un mensaje mediante el programa Ping Pong.
@@ -150,9 +150,9 @@ LDL'=
     
 \begin{enumerate}
 \item El fichero de pre configuración ''pre-hook.sh'' que se encargará de compilar el programa en la máquina remota, copiar ficheros necesarios, etc.
-\item El fichero de ''start.sh'', para que se puedan utilizar distintas versiones de MPI. En este caso se utiliza el mismo que se utilizó en las practicas.
+\item El fichero de ''start.sh'', para que se puedan utilizar distintas versiones de MPI. En este caso se utilizó el mismo que en las practicas.
 \item El fichero ''program.jdl'' que se encarga de especificar los requisitos de la aplicación para que se pueda ejecutar con exito.
-\item El fichero de post configuración ''post-hook.sh'' que se encargará de realizar el procesado de los resultados de la aplicación en caso de que sea necesario. En este caso no lo es.
+\item El fichero de post configuración ''post-hook.sh'' que se encargará de realizar el procesado de los resultados de la aplicación en caso de que sea necesario. En este caso no lo fue.
 \end{enumerate}
 \end{frame}
 %-------------------------------------------------------------------------------------------%
@@ -288,18 +288,20 @@ glite-wms-job-output --dir . https://URL_submit
 \end{center}
 \end{frame}
 %-------------------------------------------------------------------------------------------%
-\section{Conclusion y Trabajos Futuros}
+\section{Conclusion}
 %-------------------------------------------------------------------------------------------%
-\begin{frame}{Conclusion y Trabajos Futuros}
+\begin{frame}{Conclusion}
 
-  El algoritmo de la factorización $LDL^T$ implementar de manera concurrente y con unas mejoras considerables.\linebreak[2]
-
-  Se ha podido observar que el claud computing de Azure puede ser una buena alternativa y mucho más barata para cálculos pesados si no se dispone de un equipo adecuado.\linebreak[2]
-
-
-  Para futuras mejoras se debería de utilizar BLASH para la actualización de la matriz en MPI y utilizar un algoritmo por bloques para reducir las comunicaciones.
+  Lo que se puede deducir tras observar los resultados anteriores es que el rendimiento de los recursos de Biomed son muy superiores si los comparamos con el Quadcluster.
   
-  Se debería de intentar realizar pruebas con más de 4 nodos de tipo D1 para ver cuando se puede conseguir de mejor, además se deberían de probar otros proveedores de cloud computing como Amazon para comparar sus servicios.
+  No obstante a pesar del buen rendimiento obtenido existen varios problemas:
+
+\begin{itemize}
+\item No se aprovecha todo el potencial de la red infiniband
+\item No se ha podido utilizar MPICH2 en lugar de OPENMPI
+\item Existe la posibilidad de que nuestro código nunca llegue a ejecutarse
+\item No se pueden prevenir otros errores de configuración de los nodos
+\end{itemize}
     
 \end{frame}
 %-------------------------------------------------------------------------------------------%
@@ -317,6 +319,8 @@ glite-wms-job-output --dir . https://URL_submit
   \begin{center}\ccbysa\end{center}
 
 \end{frame}
+%-------------------------------------------------------------------------------------------%
+\section{Demo}
 %-------------------------------------------------------------------------------------------%
 \plain{¡Gracias!}
 %-------------------------------------------------------------------------------------------%
