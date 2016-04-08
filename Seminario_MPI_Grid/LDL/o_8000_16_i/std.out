@@ -1,0 +1,22 @@
+mpi.c
+tools.c
+tools.h
+Makefile
+mpicc -o mpi.out ./tools.c mpi.c -lm
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+CMA: no RDMA devices found
+8000;2.000752;29.414677;4.620563;7.602145;36.035992;16

@@ -1,0 +1,6 @@
+mpi.c
+tools.c
+tools.h
+Makefile
+mpicc -o mpi.out ./tools.c mpi.c -lm
+Real-time signal 26 (signal 60)

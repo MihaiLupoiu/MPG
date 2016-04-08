@@ -1,0 +1,42 @@
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+--------------------------------------------------------------------------
+[[43691,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: da-p8-01
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+mlx4: Fatal: ABI version 4 of /sys/class/infiniband_verbs/uverbs0 is not supported (min supported 2, max supported 3)
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+[da-p8-01:31566] 7 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[da-p8-01:31566] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

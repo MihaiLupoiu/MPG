@@ -1,0 +1,14 @@
+Compiling cpi
+Successfully compiled cpi
+--------------------------------------------------------------------------
+[[61055,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: cloudprv-06-1
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+pi is approximately 3.1416009869231249, Error is 0.0000083333333318
+wall clock time = 0.000172

@@ -1,0 +1,13 @@
+JobType 		= "Normal";
+nodeNumber 		= 16;
+Executable 		= "starter.sh";
+Arguments 		= "mpi.out OPENMPI";
+InputSandbox 	= {"starter.sh", "ldl.tar.gz", "pre-hook.sh"};
+StdOutput 		= "std.out";
+StdError 		= "std.err";
+OutputSandbox 	= {"std.out","std.err"};
+Requirements 	=
+Member("MPI-START",other.GlueHostApplicationSoftwareRunTimeEnvironment)
+&& Member("OPENMPI",other.GlueHostApplicationSoftwareRunTimeEnvironment)
+&& Member("MPI-INFINIBAND",other.GlueHostApplicationSoftwareRunTimeEnvironment);
+Environment 	= {"I2G_MPI_PRE_RUN_HOOK=pre-hook.sh"};

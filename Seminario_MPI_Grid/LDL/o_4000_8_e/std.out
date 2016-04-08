@@ -1,0 +1,14 @@
+mpi.c
+tools.c
+tools.h
+Makefile
+mpicc -o mpi.out ./tools.c mpi.c -lm
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+4000;0.073407;5.377218;0.052774;0.397226;5.503399;8

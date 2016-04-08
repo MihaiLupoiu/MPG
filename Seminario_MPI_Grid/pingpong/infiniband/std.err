@@ -1,0 +1,51 @@
+--------------------------------------------------------------------------
+Both a prefix was supplied to mpiexec and the absolute path to /storage/local/exp_soft/local/MPI-Libraries/gcc/openmpi-1.6.5/ was
+given:
+
+  Prefix: /storage/local/exp_soft/local/MPI-Libraries/gcc/openmpi-1.6.5
+  Path:   mpiexec
+
+Only one should be specified to avoid potential version
+confusion. Operation will continue, but the -prefix option will be
+used. This is done to allow you to select a different prefix for
+the backend computation nodes than used on the frontend for /N=öÎLùÄ-×øÔÓ„"›|„"›|%ÁÔñìûÀ=°"•Ã8ÇuÿÄÉBYÜÏìµ¶wGŞÍ%µV1ıÇr1;úLŒ	)	~’8µï0jİù{\H±Ô¡ êÙ9µï0X?—|sìT€ÌsÙ‚c;H…6fı2vàÕ¨§Ká¼œ#Öh›£˜ËòœY1
+´ß½èeJ“¨Pµ¨…)%~|¹Ñ8‘’ş†ï¦:VÓñIµ$‚¡7äQhoìğ¤l¶ãEÀU'şµà·ˆj¯*<"³6‘¬•ÅK&oä+rÕ}ó.¾“hùvÜî¢À
+Çå@µZ+Á
+Çå‹	¾`yğ¨bÜM^ ˜_»à8¸=jÔ¿©úclö.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Both a prefix or absolute path was given for mpiexec, and a different
+prefix provided for the first app_context:
+
+  Mpirun prefix: /storage/local/exp_soft/local/MPI-Libraries/gcc/openmpi-1.6.5
+  App prefix:    /storage/local/exp_soft/local/MPI-Libraries/gcc/openmpi-1.6.5/
+
+Only one should be specified to avoid potential version
+confusion. Operation will continue, but the applicaton's prefix
+option will be ignored.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: It appears that your OpenFabrics subsystem is configured to only
+allow registering part of your physical memory.  This can cause MPI jobs to
+run with erratic performance, hang, and/or crash.
+
+This may be caused by your OpenFabrics vendor limiting the amount of
+physical memory that can be registered.  You should investigate the
+relevant Linux kernel module parameters that control how much physical
+memory can be registered, and increase them to allow registering all
+physical memory on your machine.
+
+See this Open MPI FAQ item for more information on these Linux kernel module
+parameters:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+
+  Local host:              wn-01-01-15.cluster.roma3
+  Registerable memory:     32768 MiB
+  Total memory:            98226 MiB
+
+Your MPI job will continue, but may be behave poorly and/or hang.
+--------------------------------------------------------------------------
+TERM environment variable not set.
+[wn-01-01-15.cluster.roma3:00495] 1 more process has sent help message help-mpi-btl-openib.txt / reg mem limit low
+[wn-01-01-15.cluster.roma3:00495] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

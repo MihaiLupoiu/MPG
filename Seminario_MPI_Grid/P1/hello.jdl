@@ -1,0 +1,8 @@
+JobType 		= "Normal";
+Executable 		= "hello.sh";
+Arguments 		= "hola";
+StdOutput 		= "std.out";
+StdError 		= "std.err";
+InputSandbox 	= {"hello.sh"};
+OutputSandbox 	= {"std.err","std.out"};
+Requirements 	= RegExp("ceta-ciemat.es", other.GlueCEUniqueId);

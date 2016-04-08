@@ -1,0 +1,46 @@
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            cn53
+  Device name:           mlx4_0
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 26438
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   cn53
+  Local device: mlx4_0
+--------------------------------------------------------------------------
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+libibverbs: Warning: RLIMIT_MEMLOCK is 32768 bytes.
+    This will severely limit memory registrations.
+[cn53:13772] 8 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[cn53:13772] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[cn53:13772] 8 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[LFC][lfc_statg][] lfc-biomed.in2p3.fr: /grid/biomed/MPG_15_16/Mihai/ResultadoPV.tar.gz: No such file or directory
+

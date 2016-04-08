@@ -1,0 +1,41 @@
+Makefile
+pingpong.c
+pingpong.h
+mpicc -o pingpong.out pingpong.c
+## Cálculo de RTT / Envío Maestro-Esclavo
+
+## Total de procesadores: 2
+## Arquitectura: 	x86_64
+## Sistema: 	Linux
+## Release : 	2.6.32-504.3.3.el6.x86_64
+## Version : 	#1 SMP Tue Dec 16 14:29:22 CST 2014
+## MPI Version : 	2.1
+## Original Program Author: Gonzalo Sanchez 
+## GitHub: https://github.com/sanchezg/mpi-pingpong 
+## Modified Program Author: Mihai Lupoiu 
+## GitHub: https://github.com/MihaiLupoiu/mpi-pingpong 
+
+## Comienzo del envío con: 10000 envios;
+## Tamaño de datos:
+## 	SIZE0 = 1024
+## 	SIZE1 = 4096
+## 	SIZE2 = 8192
+## 	SIZE3 = 16384
+## 	SIZE4 = 32768
+## 	SIZE5 = 65536
+## 	SIZE6 = 131072
+## 	SIZE7 = 262144
+## 	SIZE8 = 524288
+
+## | tam (b) | envios | t_total (seg) | t/envio (s)  |     kB/s   |
+## |---------|--------|---------------|--------------|------------|
+## |    32768|  10000 |     0.0844512 |  8.44512e-06 |      473646|
+## |   131072|  10000 |      0.195785 |  1.95785e-05 |      817224|
+## |   262144|  10000 |      0.389562 |  3.89562e-05 |      821435|
+## |   524288|  10000 |      0.542773 |  5.42773e-05 | 1.17913e+06|
+## |  1048576|  10000 |      0.963173 |  9.63173e-05 | 1.32894e+06|
+## |  2097152|  10000 |       2.05527 |  0.000205527 | 1.24558e+06|
+## |  4194304|  10000 |       3.27424 |  0.000327424 | 1.56372e+06|
+## |  8388608|  10000 |       5.98951 |  0.000598951 | 1.70966e+06|
+## | 16777216|  10000 |       12.2765 |   0.00122765 | 1.66822e+06|
+## |_________|________|_______________|______________|____________|

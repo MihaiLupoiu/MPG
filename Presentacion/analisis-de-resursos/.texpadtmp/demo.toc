@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{Introdución}{3}{0}{1}
+\beamer@sectionintoc {2}{Ejemplo LDL'}{6}{0}{2}
+\beamer@sectionintoc {3}{Configuración}{9}{0}{3}
+\beamer@sectionintoc {4}{Resultados Ping Pong}{14}{0}{4}
+\beamer@sectionintoc {5}{Resultados LDL'}{21}{0}{5}
+\beamer@sectionintoc {6}{Conclusion y Trabajos Futuros}{24}{0}{6}
+\beamer@sectionintoc {7}{Código}{26}{0}{7}

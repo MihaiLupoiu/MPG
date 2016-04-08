@@ -1,0 +1,43 @@
+Makefile
+pingpong.c
+pingpong.h
+mpicc -o pingpong.out pingpong.c
+CMA: unable to get RDMA device list
+CMA: unable to get RDMA device list
+## Cálculo de RTT / Envío Maestro-Esclavo
+
+## Total de procesadores: 2
+## Arquitectura: 	x86_64
+## Sistema: 	Linux
+## Release : 	2.6.18-409.el5
+## Version : 	#1 SMP Tue Mar 15 11:04:33 CDT 2016
+## MPI Version : 	2.1
+## Original Program Author: Gonzalo Sanchez 
+## GitHub: https://github.com/sanchezg/mpi-pingpong 
+## Modified Program Author: Mihai Lupoiu 
+## GitHub: https://github.com/MihaiLupoiu/mpi-pingpong 
+
+## Comienzo del envío con: 10000 envios;
+## Tamaño de datos:
+## 	SIZE0 = 1024
+## 	SIZE1 = 4096
+## 	SIZE2 = 8192
+## 	SIZE3 = 16384
+## 	SIZE4 = 32768
+## 	SIZE5 = 65536
+## 	SIZE6 = 131072
+## 	SIZE7 = 262144
+## 	SIZE8 = 524288
+
+## | tam (b) | envios | t_total (seg) | t/envio (s)  |     kB/s   |
+## |---------|--------|---------------|--------------|------------|
+## |    32768|  10000 |      0.117949 |  1.17949e-05 |      339130|
+## |   131072|  10000 |      0.199166 |  1.99166e-05 |      803350|
+## |   262144|  10000 |      0.288049 |  2.88049e-05 | 1.11092e+06|
+## |   524288|  10000 |      0.474605 |  4.74605e-05 | 1.34849e+06|
+## |  1048576|  10000 |       0.83538 |   8.3538e-05 | 1.53224e+06|
+## |  2097152|  10000 |        1.5673 |   0.00015673 | 1.63338e+06|
+## |  4194304|  10000 |       2.99515 |  0.000299515 | 1.70943e+06|
+## |  8388608|  10000 |       5.82147 |  0.000582147 | 1.75901e+06|
+## | 16777216|  10000 |        11.471 |    0.0011471 | 1.78537e+06|
+## |_________|________|_______________|______________|____________|

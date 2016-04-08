@@ -1,0 +1,3 @@
+Process 2 on wn04.dir.garr.it
+pi is approximately 0.0000000000000000, Error is 3.1415926535897931
+wall clock time = 1454435090.502299

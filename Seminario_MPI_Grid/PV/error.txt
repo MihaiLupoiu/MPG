@@ -1,0 +1,10 @@
+Status info for the Job : https://lcglb01.gridpp.rl.ac.uk:9000/uCQ8nd7Ak4A5ZvA8HbZ39w
+Current Status:     Done(Success)
+Logged Reason(s):
+    - Transfer to CREAM failed due to exception: Failed to create a delegation id for job https://lcglb01.gridpp.rl.ac.uk:9000/uCQ8nd7Ak4A5ZvA8HbZ39w: reason is Received N
+ULL fault; the error is due to another cause: FaultString=[delegation [delegId=14554904912E950343lcgwms062Egridpp2Erl2Eac2Euk; dn=CN_ignacio_blanquer_O_upv_DC_irisgrid_DC_
+es; localUser=biocw] already exists! please invoke renewDelegationReq()] - FaultCode=[SOAP-ENV:Server] - FaultSubCode=[SOAP-ENV:Server]
+    - Transfer to CREAM failed due to exception: Unknown exception catched
+    - job completed
+    - Job Terminated Successfully
+Exit code:          0

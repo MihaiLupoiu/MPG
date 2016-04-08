@@ -1,0 +1,10 @@
+JobType = "Normal";
+nodeNumber = 9;
+Executable = "starter.sh";
+Arguments = "pi OPENMPI";
+InputSandbox = {"starter.sh", "pi.c", "Makefile", "pi-hooks.sh"};
+StdOutput = "std.out";
+StdError = "std.err";
+OutputSandbox = {"std.out", "std.err"};
+Requirements = Member("MPI-START", other.GlueHostApplicationSoftwareRunTimeEnvironment) && Member("OPENMPI", other.GlueHostApplicationSoftwareRunTimeEnvironment);
+

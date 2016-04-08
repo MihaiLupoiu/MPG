@@ -1,0 +1,27 @@
+
+Connecting to the service https://lcgwms01.jinr.ru:7443/glite_wms_wmproxy_server
+
+
+Error - Output not yet ready
+Current Job Status is: Running
+
+
+================================= JOBE DONE ===================================
+
+Connecting to the service https://lcgwms01.jinr.ru:7443/glite_wms_wmproxy_server
+
+
+Warning - https://lcglb01.jinr.ru:9000/hgjQOK0Zw3v0bLlAmdDHhg: the status is DONE (ExitCode != 0)
+
+================================================================================
+
+                        JOB GET OUTPUT OUTCOME
+
+Output sandbox files for the job:
+https://lcglb01.jinr.ru:9000/hgjQOK0Zw3v0bLlAmdDHhg
+have been successfully retrieved and stored in the directory:
+/home/mpg/Evidencias/Seminario_MPI_Grid/LDL/mpg_hgjQOK0Zw3v0bLlAmdDHhg
+
+================================================================================
+
+

@@ -1,0 +1,14 @@
+
+Connecting to the service https://ipngrid05.in2p3.fr:7443/glite_wms_wmproxy_server
+
+==========================================================================
+
+		     COMPUTING ELEMENT IDs LIST 
+ The following CE(s) matching your job requirements have been found:
+
+	*CEId*
+ - ce.ceta-ciemat.es:8443/cream-sge-biomed
+
+==========================================================================
+
+

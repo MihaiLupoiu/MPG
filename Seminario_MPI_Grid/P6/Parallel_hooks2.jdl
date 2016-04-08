@@ -1,0 +1,14 @@
+JobType 		= "Normal";
+nodeNumber 		= 4;
+Executable 		= "starter.sh";
+Arguments 		= "cpi2 OPENMPI";
+InputSandbox 	= {"starter.sh", "cpi2.c", "pre-hook.sh","post-hook.sh"};
+StdOutput 		= "std.out";
+StdError 		= "std.err";
+OutputSandbox 	= {"std.out","std.err","myout.tgz"};
+Requirements 	=
+Member("MPI-START",
+other.GlueHostApplicationSoftwareRunTimeEnvironment)
+&& Member("OPENMPI",
+other.GlueHostApplicationSoftwareRunTimeEnvironment);
+Environment 	= {"I2G_MPI_PRE_RUN_HOOK=pre-hook.sh","I2G_MPI_POST_RUN_HOOK=post-hook.sh"};

@@ -1,0 +1,14 @@
+ompi_info: Error: unknown option "-v"
+Type 'ompi_info --help' for usage.
+ompi_info: Error: unknown option "-v"
+Type 'ompi_info --help' for usage.
+ompi_info: Error: unknown option "-v"
+Type 'ompi_info --help' for usage.
+librdmacm: Fatal: no RDMA devices found
+librdmacm: Fatal: no RDMA devices found
+librdmacm: Fatal: no RDMA devices found
+librdmacm: Fatal: no RDMA devices found
+Process 3 on cloudprv-06-1.ifca.es
+Process 2 on cloudprv-06-1.ifca.es
+Process 0 on cloudprv-06-1.ifca.es
+Process 1 on cloudprv-06-1.ifca.es

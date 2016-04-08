@@ -1,0 +1,53 @@
+
+Connecting to the service https://ipngrid05.in2p3.fr:7443/glite_wms_wmproxy_server
+
+==========================================================================
+
+		     COMPUTING ELEMENT IDs LIST 
+ The following CE(s) matching your job requirements have been found:
+
+	*CEId*
+ - ce.ceta-ciemat.es:8443/cream-sge-biomed
+ - ce.hpgcc.finki.ukim.mk:8443/cream-pbs-biomed
+ - ce06.ncg.ingrid.pt:8443/cream-sge-gridq
+ - cream.sg.grena.ge:8443/cream-pbs-biomed
+ - cream01.grid.auth.gr:8443/cream-pbs-biomed
+ - gridce01.ifca.es:8443/cream-sge-biomed
+ - gridce02.ifca.es:8443/cream-sge-biomed
+ - gridce03.ifca.es:8443/cream-sge-biomed
+ - gridsrv2-4.dir.garr.it:8443/cream-pbs-grid
+ - creamce.gina.sara.nl:8443/cream-pbs-short
+ - creamce3.gina.sara.nl:8443/cream-pbs-short
+ - cygnus.grid.rug.nl:8443/cream-pbs-medium
+ - dwarf.wcss.wroc.pl:8443/cream-pbs-biomed
+ - creamce2.gina.sara.nl:8443/cream-pbs-short
+ - cygnus.grid.rug.nl:8443/cream-pbs-short
+ - snf-189278.vm.okeanos.grnet.gr:8443/cream-pbs-biomed
+ - creamce3.gina.sara.nl:8443/cream-pbs-medium
+ - creamce2.gina.sara.nl:8443/cream-pbs-medium
+ - creamce.gina.sara.nl:8443/cream-pbs-medium
+ - ce05.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_4G_long
+ - cream-ce01.ariagni.hellasgrid.gr:8443/cream-pbs-biomed
+ - ce05.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_1G_long
+ - ce06.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_4G_long
+ - ce07.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_4G_long
+ - lpsc-ce.in2p3.fr:8443/cream-pbs-biomed
+ - lpsc-ce2.in2p3.fr:8443/cream-pbs-biomed
+ - lpsc-cream-ce.in2p3.fr:8443/cream-pbs-biomed
+ - sbgce2.in2p3.fr:8443/cream-pbs-biomed
+ - ce06.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_1G_long
+ - ce07.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_1G_long
+ - cream.afroditi.hellasgrid.gr:8443/cream-pbs-biomed
+ - ce05.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_2G_long
+ - ce-01.roma3.infn.it:8443/cream-pbs-fastgrid
+ - ce07.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_2G_long
+ - ce06.esc.qmul.ac.uk:8443/cream-sge-sl6_lcg_2G_long
+ - ce-01.roma3.infn.it:8443/cream-pbs-grid
+ - sbgce1.in2p3.fr:8443/cream-pbs-biomed
+ - creamce.reef.man.poznan.pl:8443/cream-pbs-biomed
+ - marcream01.in2p3.fr:8443/cream-pbs-biomed
+ - marcream02.in2p3.fr:8443/cream-pbs-biomed
+
+==========================================================================
+
+

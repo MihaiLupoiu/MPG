@@ -1,0 +1,22 @@
+
+Connecting to the service https://node27.datagrid.cea.fr:7443/glite_wms_wmproxy_server
+
+
+Warning - Unable to register the job to the service: https://node27.datagrid.cea.fr:7443/glite_wms_wmproxy_server
+Argus denied authorization or permitted with no obligationon jobRegister issued by DN: /DC=es/DC=irisgrid/O=upv/CN=ignacio-blanquer
+Error code: SOAP-ENV:Server
+
+
+Connecting to the service https://lcgwms01.jinr.ru:7443/glite_wms_wmproxy_server
+
+
+====================== glite-wms-job-submit Success ======================
+
+The job has been successfully submitted to the WMProxy
+Your job identifier is:
+
+https://lcglb01.jinr.ru:9000/hgjQOK0Zw3v0bLlAmdDHhg
+
+==========================================================================
+
+

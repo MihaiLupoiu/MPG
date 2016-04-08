@@ -1,0 +1,44 @@
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+--------------------------------------------------------------------------
+[[61401,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: wn03.dir.garr.it
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+librdmacm: couldn't read ABI version.
+librdmacm: assuming: 4
+[wn03.dir.garr.it:09087] 15 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[wn03.dir.garr.it:09087] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

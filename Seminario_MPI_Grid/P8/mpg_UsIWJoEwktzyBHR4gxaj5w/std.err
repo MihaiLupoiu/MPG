@@ -1,0 +1,5 @@
+inicia.c:29: warning: conflicting types for built-in function 'sincos'
+tar: P8: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+send2nsd: NS009 - fatal configuration error: Host unknown: lfn
+lfn:/grid/biomed/MPG_15_16/resultadoMihai.tar.gz: Host not known
